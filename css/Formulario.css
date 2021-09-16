@@ -1,0 +1,35 @@
+body {
+    background-color:#e0e5ec;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25;
+    line-height: 25px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+}
+ 
+
+h3{
+    color: black;
+}
+    
+p {
+    color: dimgray;
+    font-size: 3;
+}
+
+
+audio {
+    background-color:#F08080;
+  
+}
+
+a {text-decoration: none;
+    margin-left: 10px;
+}

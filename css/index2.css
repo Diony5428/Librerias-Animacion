@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+
+.splide img{
+    width: 350px;
+    height: 250px;
+}
+
+.inhabilitar{
+    display: none;
+}
+
+
+.habilitar{
+    display: inline;
+}
+
+.logo{
+    width: 150px;
+    height: 250px; 
+}
+
