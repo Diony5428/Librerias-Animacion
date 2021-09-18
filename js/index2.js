@@ -10,7 +10,7 @@ for (var i = 0, len = elms.length; i < len; i++) {
 
 
 var sound = new Howl({
-  src: ['assets/audio-1.mp3']
+  src: ['sound/audio-1.mp3']
 });
 
 var btnPlay = document.getElementById("btnPlay");
