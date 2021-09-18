@@ -9,10 +9,7 @@
         display: flex;
         padding: 0;
         width:400%;
-    
         animation: cambio 20s infinite alternate;
-        
-    
     }
     
     .slider li {
@@ -44,9 +41,7 @@
         font-family: 'Ubuntu', sans-serif;
         font-size: 25;
         line-height: 25px;
-        
     }
-    
     
     h1 {
         color: black;
@@ -57,7 +52,6 @@
     h2 {
         color: black;
         margin-left: 10px;
-     
     }
     
     p {
