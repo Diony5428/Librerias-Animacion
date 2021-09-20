@@ -32,7 +32,8 @@ gsap.set(".logo", {
   backgroundColor: "lightblue"
 })
 
-gsap.to(".logo", { rotation: 360, x: 10,  duration: 5, repeat: -1, yoyo: true,
-backgroundColor: "red", borderRadius:"20", border:"5px solid white", 
+gsap.to(".logo", {
+  rotation: 360, x: 10, duration: 5, repeat: -1, yoyo: true,
+  backgroundColor: "red", borderRadius: "20", border: "5px solid white",
 })
 
