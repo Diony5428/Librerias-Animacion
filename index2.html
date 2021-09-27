@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Libreria</title>
         <link rel="stylesheet" href="css/splide.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/index2.css">
 </head>
 
@@ -47,8 +48,43 @@
 
  <img src="https://www.fevox.co/wp-content/uploads/2018/11/impulsado-por-AI-fevox.gif" width="150px"height="250px" alt=""><br> <br>
 
+ <h4 class="contact-title">Formulario de Contacto</h4>
+
+ <div class="form-container">
+        <form id="myForm" novalidate method="post">
+            <div class="form-group">
+                <label for="">Nombre completo</label>
+                <input type="text" data-pristine-required-message="Este campo es requerido" required
+                    class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="">Correo electronico</label>
+                <input type="email" data-pristine-required-message="Este campo es requerido"
+                    data-pristine-email-message="Este correo no es valido" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="">Celular</label>
+                <input type="number" minlength="10" maxlength="10" required
+                    data-pristine-required-message="Este campo es requerido" class="form-control"
+                    data-pristine-minlength-message="Ingrese un número valido"
+                    data-pristine-maxlength-message="Ingrese un número valido" />
+            </div>
+            <div class="form-group">
+                <label for="">Edad</label>
+                <input type="number" min="18" required data-pristine-required-message="Este campo es requerido"
+                    class="form-control" data-pristine-min-message="Edad mínima debe ser 18 años" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-primary"/>
+                <input type="reset" value="Restablecer" class="btn btn-primary"/>
+            </div>
+
+        </form>
+
  <a style="color:blue; font-size: 25px;" href="Tabla.html"> Regresar a Tabla</a> <br><br>
 
+<script src="js/pristine.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/index2.js"></script>
 
 </body>

@@ -37,3 +37,17 @@ gsap.to(".logo", {
   backgroundColor: "red", borderRadius: "20", border: "5px solid white",
 })
 
+
+var myForm = document.getElementById("myForm");
+
+pristine = new Pristine (myForm);
+
+myForm.addEventListener("submit", function (e){
+  e.preventDefault();
+  var valid = pristine.validate();
+  myForm.classList .add("was-validated");
+
+  myForm.addEventListener("reset", function (e){
+    myForm.classList .remove("was-validated");
+  });
+})
